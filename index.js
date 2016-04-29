@@ -57,9 +57,11 @@ module.exports = {
     'angular/typecheck-string': 1,
     'angular/watchers-execution': [0, '$digest'],
     'angular/window-service': 1,
+    'no-mixed-spaces-and-tabs': ['warning', 'smart-tabs'],
     'no-use-before-define': 0,
     'no-unused-vars': 1,
-    'no-console': 1
+    'no-console': 1,
+    'indent': 0
   },
   "extends": "eslint:recommended"
 };
