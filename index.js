@@ -2,7 +2,9 @@
 
 module.exports = {
   globals: {
-    angular: true
+    'angular': false,
+    'moment': false,
+    '$': false
   },
   plugins: [
     'angular'
@@ -55,7 +57,9 @@ module.exports = {
     'angular/typecheck-string': 1,
     'angular/watchers-execution': [0, '$digest'],
     'angular/window-service': 1,
-    'no-use-before-define': 0
+    'no-use-before-define': 0,
+    'no-unused-vars': 1,
+    'no-console': 1
   },
   "extends": "eslint:recommended"
 };
